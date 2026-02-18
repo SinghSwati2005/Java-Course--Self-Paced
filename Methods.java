@@ -19,8 +19,6 @@ public static void main(String[] args) {
   System.out.println("double: " + myNum2);
 }
 
-
-
 //Java Scope
 //In Java, variables are only accessible inside the region where they are created. This is called scope.
 
@@ -61,3 +59,7 @@ public class Methods {
     // Code here CANNOT use x
   }
 }
+
+//What is the Call Stack
+// The call stack is a data structure used by the program during runtime to manage method calls and local variables. It operates in a Last-In-First-Out (LIFO) manner, meaning the last method called is the first one to complete and exit.
+
